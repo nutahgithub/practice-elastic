@@ -18,7 +18,7 @@ public class DefaultRestApi {
 
 	@GetMapping(value = "/welcome")
 	public String welcome() {
-		LOG.info(StringUtils.join("ABCddd", "Spring", "Elasticsearch"));
+		LOG.info(StringUtils.join("ABC11", "Spring", "Elasticsearch"));
 		return "Welcome spring boot";
 	}
 	
