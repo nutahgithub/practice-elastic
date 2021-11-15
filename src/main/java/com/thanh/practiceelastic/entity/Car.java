@@ -43,8 +43,6 @@ public class Car {
 	@JsonIgnore
 	private boolean availble;
 
-	// Doi ten key cua item
-	@JsonProperty(value = "b-rannd")
 	private String brand;
 	
 	private String color;
@@ -54,6 +52,8 @@ public class Car {
 	@JsonFormat(pattern = "yyyy-MM-dd", timezone = "Asia/Jakarta")
 	private LocalDate firstRealeaseDate;
 	
+	// Doi ten key cua item
+	@JsonProperty(value = "pricee")
 	private int price;
 	
 	private String type;
